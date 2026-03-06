@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:relational.fel.cvut.cz)",
+      "Bash(curl:*)"
+    ]
+  }
+}
