@@ -14,7 +14,7 @@ tables:
         type: number(id)
         constraints: [required, foreign_key]
         description: District where the account's branch is located.
-     \ - name: frequency
+      - name: frequency
         type: enum<POPLATEK MESICNE, POPLATEK TYDNE, POPLATEK PO OBRATU>
         constraints: [required]
         description: >
